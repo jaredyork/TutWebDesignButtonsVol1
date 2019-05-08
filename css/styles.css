@@ -1,0 +1,142 @@
+.wrapper {
+  padding: 64px;
+}
+
+.btn-type-1 {
+  display: inline-block;
+  padding: 16px 32px 16px 32px;
+  border-radius: 3px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background: #1E88E5;
+}
+
+.btn-type-1:hover {
+  background: #1565C0;
+}
+
+.btn-type-1:active {
+  background: #0D47A1;
+}
+
+.btn-type-2 {
+  display: inline-block;
+  padding: 16px 32px 16px 32px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #2E7D32;
+  border-radius: 32px;
+  color: #2E7D32;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-type-2:hover {
+  border: 2px solid #555;
+  color: #555;
+}
+
+.btn-type-3 {
+  display: inline-block;
+  padding: 16px 32px 16px 32px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #B71C1C;
+  border-radius: 10px;
+  color: white;
+  background-image: linear-gradient(#EF5350, #E53935);
+}
+
+.btn-type-3:hover {
+  background-image: linear-gradient(#F44336, #E53935);
+}
+
+.btn-type-3:active {
+  background-image: linear-gradient(#E53935, #EF5350);
+}
+
+.btn-type-4 {
+  display: inline-block;
+  padding: 16px 32px 16px 32px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 4px solid #1B5E20;
+  border-radius: 6px;
+  color: white;
+  background: #388E3C;
+}
+
+.btn-type-4:hover {
+  background: #43A047;
+}
+
+.btn-type-4:active {
+  position: relative;
+  top: 4px;
+  border-bottom: 0;
+  margin-bottom: 4px;
+  background: #2E7D32;
+}
+
+.btn-type-5 {
+  display: inline-block;
+  padding: 16px 32px 16px 32px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 8px solid #4A148C;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.85);
+  color: white;
+  background: #AB47BC;
+  transition: 0.05s top ease-in-out, 0.05 margin-bottom ease-in-out;
+}
+
+.btn-type-5:hover {
+  background: #BA68C8;
+}
+
+.btn-type-5:active {
+  position: relative;
+  top: 8px;
+  border-bottom: 0;
+  margin-bottom: 8px;
+  background: #9C27B0;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.btn-type-6 {
+  display: inline-block;
+  position: relative;
+  padding: 16px 32px 16px 32px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+  box-shadow: 0px 1px 4px -2px #333;
+  text-shadow: 0px -1px #333;
+  color: white;
+  background: linear-gradient(#E65100, #EF6C00);
+}
+
+.btn-type-6:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: calc(100% - 4px);
+  height: 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.2));
+}
+
+.btn-type-6:hover {
+  background: linear-gradient(#E65100, #EF6C00);
+}
+
+.btn-type-6:active {
+  background: linear-gradient(#EF6C00, #E65100);
+}
